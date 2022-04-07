@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Uri</string>
+    <string name="twInputText">Введите данные:</string>
+    <string name="twOrChoose">Или выберите:</string>
+    <string name="webRadio">Web</string>
+    <string name="geoRadio">GeoTag</string>
+    <string name="phoneRadio">Phone</string>
+    <string name="submitButton">Отправить</string>
+    <string name="switchTextAuto">Auto-recognizing</string>
+    <string name="switchTextManual">Manual</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
