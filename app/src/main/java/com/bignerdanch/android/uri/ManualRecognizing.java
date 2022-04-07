@@ -49,6 +49,13 @@ public class ManualRecognizing extends Fragment {
                 binding.editText.setTextColor(ContextCompat.getColor(getContext(), android.R.color.holo_red_dark));
             } else {
                 binding.editText.setTextColor(ContextCompat.getColor(getContext(), android.R.color.white));
+                if (binding.rGroup.getCheckedRadioButtonId() == binding.geoRadio.getId()){
+                    binding.editText.setInputType(InputType.TYPE_CLASS_TEXT);
+                } else if (binding.rGroup.getCheckedRadioButtonId() == binding.webRadio.getId()){
+                    binding.editText.setInputType(InputType.TYPE_CLASS_TEXT);
+                } else if (binding.rGroup.getCheckedRadioButtonId() == binding.phoneRadio.getId()){
+                    binding.editText.setInputType(InputType.TYPE_CLASS_PHONE);
+                }
             }
         });
 
